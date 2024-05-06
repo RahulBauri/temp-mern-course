@@ -2,7 +2,8 @@ import { StatusCodes } from 'http-status-codes';
 import User from '../models/UserModel.js';
 import Job from '../models/JobModel.js';
 import cloudinary from 'cloudinary';
-import { formatImage } from '../middleware/multerMiddleware.js';
+import { formatImage } from '../middlewares/multerMiddleware.js';
+
 // import { promises as fs } from 'fs';
 
 export const getCurrentUser = async (req, res) => {
