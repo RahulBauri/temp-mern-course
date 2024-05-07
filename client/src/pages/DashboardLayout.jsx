@@ -12,6 +12,7 @@ import { checkDefaultTheme } from '../App';
 import customFetch from '../utils/customFetch';
 import { toast } from 'react-toastify';
 import { useQuery } from '@tanstack/react-query';
+import { useEffect } from 'react';
 
 const userQuery = {
   queryKey: ['user'],
